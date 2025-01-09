@@ -35,8 +35,9 @@ const getCurrentIcon = () =>
     themeButton.classList.contains(iconTheme) ? "ri-moon-line" : "ri-sun-line";
 
 // Make dark theme by default
-document.body.classList.add("darkTheme");
+document.body.classList.add(darkTheme);
 themeButton.classList.add(iconTheme);
+
 // We validate if the user previously chose a topic
 if (selectedTheme) {
     // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
