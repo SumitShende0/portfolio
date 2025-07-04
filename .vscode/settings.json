@@ -1,4 +1,5 @@
 {
     "prettier.tabWidth": 4,
-    "prettier.singleQuote": false
+    "prettier.singleQuote": false,
+    "liveServer.settings.port": 5501
 }
